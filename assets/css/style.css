@@ -2,21 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* ----- VARIABLES ----- */
-:root{
-    --body-color: rgb(250, 250, 250);
+:root {
+    --body-color: rgb(240, 240, 245); /* Fundo claro e sofisticado */
     --color-white: rgb(255, 255, 255);
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: rgb(50, 50, 50); /* Texto escuro para ótimo contraste */
+    --text-color-third: rgb(0, 120, 215); /* Azul intenso para destaques */
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color: rgb(255, 140, 0); /* Laranja vibrante e moderno */
+    --first-color-hover: rgb(0, 100, 200); /* Azul forte e profissional */
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
+    --second-color: rgb(40, 180, 99); /* Verde energético e equilibrado */
+    --third-color: rgb(200, 50, 50); /* Vermelho elegante para elementos impactantes */
 
+    --first-shadow-color: rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
 }
+
 
 /* ----- BASE ----- */
 *{
@@ -260,6 +261,7 @@ nav{
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
    width: 150px;
    height: 50px;
    gap: 5px;
@@ -271,6 +273,7 @@ nav{
 }
 .scroll-btn i{
     font-size: 20px;
+    
 }
 
 /* ----- MAIN BOX ----- */
@@ -383,10 +386,13 @@ h3{
     font-size: 50px;
     color: #00B5E7;
     margin-bottom: 25px;
+
 }
 .project-box label{
     font-size: 15px;
     color: #777;
+    text-align: center;
+    
 }
 .project-box::after, .contact-info::after{
     content: "";

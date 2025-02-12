@@ -3,17 +3,17 @@
 
 /* ----- VARIABLES ----- */
 :root {
-    --body-color: #F4F4F6; /* Fundo sofisticado e levemente acinzentado */
+    --body-color: #FFFFFF; /* Fundo branco para um visual limpo e moderno */
     --color-white: #FFFFFF;
 
-    --text-color-second: #1A1A1A; /* Preto suave para legibilidade impecável */
+    --text-color-second: #383838; /* Cinza antracite para títulos e texto principal */
     --text-color-third: #4A4A4A; /* Cinza escuro para subtítulos e detalhes */
 
-    --first-color: #0D6EFD; /* Azul vibrante e moderno para botões e destaques */
-    --first-color-hover: #0A58CA; /* Azul um pouco mais escuro para interação */
+    --first-color: #4169E1; /* Azul royal para botões e destaques */
+    --first-color-hover: #304BB5; /* Azul mais escuro para interação */
 
-    --second-color: #6C757D; /* Cinza equilibrado para elementos sutis */
-    --third-color: #E63946; /* Vermelho sofisticado para pequenos detalhes chamativos */
+    --second-color: #228B22; /* Verde floresta para elementos secundários */
+    --third-color: #960018; /* Vermelho carmim para pequenos detalhes chamativos */
 
     --first-shadow-color: rgba(0, 0, 0, 0.08); /* Sombra sutil para um toque de profundidade */
 }
